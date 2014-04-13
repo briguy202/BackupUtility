@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackupUtility.WPF", "BackupUtility.WPF\BackupUtility.WPF.csproj", "{DDACFA9B-3F43-4C71-856D-D1ECDADC667D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackupUtility.Console", "BackupUtility.Console\BackupUtility.Console.csproj", "{F6A578C5-66D8-40ED-BDD6-99F5CD44617E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibrary.Console", "..\CommonLibrary\CommonLibrary.Console\CommonLibrary.Console.csproj", "{EBB7CD65-1550-4C8F-9CCF-BF550732D852}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://localhost:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BackupUtility.WPF\\BackupUtility.WPF.csproj
+		SccProjectName1 = BackupUtility.WPF
+		SccLocalPath1 = BackupUtility.WPF
+		SccProjectUniqueName2 = BackupUtility.Console\\BackupUtility.Console.csproj
+		SccProjectName2 = BackupUtility.Console
+		SccLocalPath2 = BackupUtility.Console
+		SccProjectUniqueName3 = ..\\CommonLibrary\\CommonLibrary.Console\\CommonLibrary.Console.csproj
+		SccProjectName3 = ../CommonLibrary/CommonLibrary.Console
+		SccLocalPath3 = ..\\CommonLibrary\\CommonLibrary.Console
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDACFA9B-3F43-4C71-856D-D1ECDADC667D}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{DDACFA9B-3F43-4C71-856D-D1ECDADC667D}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{DDACFA9B-3F43-4C71-856D-D1ECDADC667D}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{DDACFA9B-3F43-4C71-856D-D1ECDADC667D}.Debug|x86.ActiveCfg = Debug|x86
+		{DDACFA9B-3F43-4C71-856D-D1ECDADC667D}.Debug|x86.Build.0 = Debug|x86
+		{DDACFA9B-3F43-4C71-856D-D1ECDADC667D}.Release|Any CPU.ActiveCfg = Release|x86
+		{DDACFA9B-3F43-4C71-856D-D1ECDADC667D}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{DDACFA9B-3F43-4C71-856D-D1ECDADC667D}.Release|Mixed Platforms.Build.0 = Release|x86
+		{DDACFA9B-3F43-4C71-856D-D1ECDADC667D}.Release|x86.ActiveCfg = Release|x86
+		{DDACFA9B-3F43-4C71-856D-D1ECDADC667D}.Release|x86.Build.0 = Release|x86
+		{F6A578C5-66D8-40ED-BDD6-99F5CD44617E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A578C5-66D8-40ED-BDD6-99F5CD44617E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A578C5-66D8-40ED-BDD6-99F5CD44617E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F6A578C5-66D8-40ED-BDD6-99F5CD44617E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F6A578C5-66D8-40ED-BDD6-99F5CD44617E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F6A578C5-66D8-40ED-BDD6-99F5CD44617E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A578C5-66D8-40ED-BDD6-99F5CD44617E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6A578C5-66D8-40ED-BDD6-99F5CD44617E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F6A578C5-66D8-40ED-BDD6-99F5CD44617E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F6A578C5-66D8-40ED-BDD6-99F5CD44617E}.Release|x86.ActiveCfg = Release|Any CPU
+		{EBB7CD65-1550-4C8F-9CCF-BF550732D852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB7CD65-1550-4C8F-9CCF-BF550732D852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB7CD65-1550-4C8F-9CCF-BF550732D852}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EBB7CD65-1550-4C8F-9CCF-BF550732D852}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{EBB7CD65-1550-4C8F-9CCF-BF550732D852}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EBB7CD65-1550-4C8F-9CCF-BF550732D852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB7CD65-1550-4C8F-9CCF-BF550732D852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBB7CD65-1550-4C8F-9CCF-BF550732D852}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{EBB7CD65-1550-4C8F-9CCF-BF550732D852}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{EBB7CD65-1550-4C8F-9CCF-BF550732D852}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal
