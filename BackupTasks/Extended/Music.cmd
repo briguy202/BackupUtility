@@ -1,0 +1,1 @@
+"..\..\BackupUtility\BackupUtility.exe" -jobName MusicExtended -configFile "..\AA-config.xml" -sourceDir "D:\Backup\Music" -destDir "{DRIVE}:\Backup\Extended\Music" -copies 2 -runIfOlderThan 180 -useCompression false -sourceCopyNewest -requiredDriveName HibmaExternal

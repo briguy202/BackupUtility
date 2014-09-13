@@ -1,0 +1,2 @@
+"..\..\BackupUtility\BackupUtility.exe" -jobName Music -configFile "..\AA-config.xml" -sourceDir "C:\Shared\Music" -destDir "D:\Backup\Music"
+"..\..\BackupUtility\BackupUtility.exe" -jobName MusicCopy -configFile "..\AA-config.xml" -sourceDir "D:\Backup\Music" -destDir "{DRIVE}:\Backup\Regular\Music" -copies 1 -useCompression false -sourceCopyNewest -requiredDriveName HibmaExternal

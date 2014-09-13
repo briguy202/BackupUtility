@@ -1,0 +1,1 @@
+"..\..\BackupUtility\BackupUtility.exe" -jobName InstallsExtended -configFile "..\AA-config.xml" -sourceDir "D:\Backup\Installs" -destDir "{DRIVE}:\Backup\Extended\Installs" -copies 3 -runIfOlderThan 180 -useCompression false -sourceCopyNewest -requiredDriveName HibmaExternal

@@ -1,0 +1,2 @@
+"..\..\BackupUtility\BackupUtility.exe" -jobName Desktop -configFile "..\AA-config.xml" -sourceDir "C:\Users\Brian\Desktop" -destDir "D:\Backup\Desktop" -copies 3
+"..\..\BackupUtility\BackupUtility.exe" -jobName DesktopCopy -configFile "..\AA-config.xml" -sourceDir "D:\Backup\Desktop" -destDir "{DRIVE}:\Backup\Regular\Desktop" -copies 7 -useCompression false -sourceCopyNewest -requiredDriveName HibmaExternal

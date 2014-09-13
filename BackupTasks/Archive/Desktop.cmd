@@ -1,0 +1,1 @@
+"..\..\BackupUtility\BackupUtility.exe" -jobName DesktopArchive -configFile "..\AA-config.xml" -sourceDir "D:\Backup\Desktop" -destDir "D:\Backup\Desktop\Archive" -copies 2 -runIfOlderThan 30 -useCompression false -sourceCopyNewest

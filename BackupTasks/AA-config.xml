@@ -1,0 +1,8 @@
+<configuration>
+	<emailHost>smtp.comcast.net</emailHost>
+	<emailPort>25</emailPort>
+	<emailFromAddress>noreply@noreply.com</emailFromAddress>
+	<emailFromName>Backup Utility</emailFromName>
+	<emailToAddress>bhibma@gmail.com</emailToAddress>
+	<emailToName>Brian Hibma</emailToName>
+</configuration>

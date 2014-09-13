@@ -1,0 +1,2 @@
+"..\..\BackupUtility\BackupUtility.exe" -jobName Installs -configFile "..\AA-config.xml" -sourceDir "\\server\share\Installs" -destDir "D:\Backup\Installs" -copies 1
+"..\..\BackupUtility\BackupUtility.exe" -jobName InstallsCopy -configFile "..\AA-config.xml" -sourceDir "D:\Backup\Installs" -destDir "{DRIVE}:\Backup\Regular\Installs" -copies 1 -useCompression false -sourceCopyNewest -requiredDriveName HibmaExternal

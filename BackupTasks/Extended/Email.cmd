@@ -1,0 +1,1 @@
+"..\..\BackupUtility\BackupUtility.exe" -jobName EmailExtended -configFile "..\AA-config.xml" -sourceDir "D:\Backup\Email" -destDir "{DRIVE}:\Backup\Extended\Email" -copies 10 -runIfOlderThan 90 -useCompression false -sourceCopyNewest -requiredDriveName HibmaExternal

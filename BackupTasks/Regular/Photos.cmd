@@ -1,0 +1,2 @@
+"..\..\BackupUtility\BackupUtility.exe" -jobName Photos -configFile "..\AA-config.xml" -sourceDir "C:\Shared\Photos" -destDir "D:\Backup\Photos" -copies 1
+"..\..\BackupUtility\BackupUtility.exe" -jobName PhotosCopy -configFile "..\AA-config.xml" -sourceDir "D:\Backup\Photos" -destDir "{DRIVE}:\Backup\Regular\Photos" -copies 2 -useCompression false -sourceCopyNewest -requiredDriveName HibmaExternal

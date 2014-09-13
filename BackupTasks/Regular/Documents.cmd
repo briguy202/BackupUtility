@@ -1,0 +1,2 @@
+"..\..\BackupUtility\BackupUtility.exe" -jobName Documents -configFile "..\AA-config.xml" -sourceDir "C:\Shared\Documents" -destDir "D:\Backup\Documents" -copies 3
+"..\..\BackupUtility\BackupUtility.exe" -jobName DocumentsCopy -configFile "..\AA-config.xml" -sourceDir "D:\Backup\Documents" -destDir "{DRIVE}:\Backup\Regular\Documents" -copies 7 -useCompression false -sourceCopyNewest -requiredDriveName HibmaExternal

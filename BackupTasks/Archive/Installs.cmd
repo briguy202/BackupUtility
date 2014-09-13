@@ -1,0 +1,1 @@
+"..\..\BackupUtility\BackupUtility.exe" -jobName InstallsArchive -configFile "..\AA-config.xml" -sourceDir "D:\Backup\Installs" -destDir "D:\Backup\Installs\Archive" -copies 1 -runIfOlderThan 30 -useCompression false -sourceCopyNewest

@@ -1,0 +1,1 @@
+"..\..\BackupUtility\BackupUtility.exe" -jobName DocumentsArchive -configFile "..\AA-config.xml" -sourceDir "D:\Backup\Documents" -destDir "D:\Backup\Documents\Archive" -copies 2 -runIfOlderThan 30 -useCompression false -sourceCopyNewest

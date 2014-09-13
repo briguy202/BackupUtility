@@ -1,0 +1,2 @@
+"..\..\BackupUtility\BackupUtility.exe" -jobName Email -configFile "..\AA-config.xml" -sourceDir "C:\Users\Brian\Documents\Outlook Files" -destDir "D:\Backup\Email" -copies 1
+"..\..\BackupUtility\BackupUtility.exe" -jobName EmailCopy -configFile "..\AA-config.xml" -sourceDir "D:\Backup\Email" -destDir "{DRIVE}:\Backup\Regular\Email" -copies 7 -useCompression false -sourceCopyNewest -requiredDriveName HibmaExternal

@@ -1,0 +1,1 @@
+"..\..\BackupUtility\BackupUtility.exe" -jobName PhotosExtended -configFile "..\AA-config.xml" -sourceDir "D:\Backup\Photos" -destDir "{DRIVE}:\Backup\Extended\Photos" -copies 8 -runIfOlderThan 90 -useCompression false -sourceCopyNewest -requiredDriveName HibmaExternal

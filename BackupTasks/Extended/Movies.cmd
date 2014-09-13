@@ -1,0 +1,1 @@
+"..\..\BackupUtility\BackupUtility.exe" -jobName MoviesExtended -configFile "..\AA-config.xml" -sourceDir "D:\Backup\Movies" -destDir "{DRIVE}:\Backup\Extended\Movies" -copies 2 -runIfOlderThan 180 -useCompression false -sourceCopyNewest -requiredDriveName HibmaExternal
